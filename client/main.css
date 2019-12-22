@@ -1,0 +1,24 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.input_group{
+  margin: 1rem auto;
+}
+
+.block{
+  margin: 1rem auto;
+  padding: 0.5rem;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+form{
+  margin: 1rem auto;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
