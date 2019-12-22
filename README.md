@@ -21,7 +21,7 @@ sudo mongod —dbpath ~/projects/RPDBlab3/data/instance2 —port 27001 —shards
 sudo mongod —configsvr —dbpath ~/projects/RPDBlab3/data/config —port 27002 —replSet lab3
 
 
-**Точно не помню, нужна ли это команда. Для запуска использую ту, что выше.**
+**Точно не помню, нужна ли это команда, но она у меня до сих пор находится в блокноте. Для запуска использую ту, что выше.**
 
 sudo mongod —configsvr —dbpath ~/projects/RPDBlab3/data/config —port 27002
 
