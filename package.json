@@ -2,7 +2,7 @@
   "name": "lab3RPDB",
   "private": true,
   "scripts": {
-    "start": "MONGO_URL='mongodb://localhost:27100/sportrent' meteor",
+    "start": "set MONGO_URL='mongodb://localhost:27100/sysadm' meteor",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"

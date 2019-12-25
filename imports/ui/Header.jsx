@@ -8,8 +8,8 @@ class Header extends React.Component{
             <header>
                 <nav>
                     <ul>
-                        <li><Link to='/'>К журналу проката</Link></li>
-                        <li><Link to='/items'>К списку снаряжения</Link></li>
+                        <li><Link to='/'>Список оборудований</Link></li>
+                        <li><Link to='/ipmac'>Список IP и MAC адресов</Link></li>
                     </ul>
                 </nav>
             </header>

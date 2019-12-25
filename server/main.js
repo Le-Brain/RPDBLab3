@@ -1,4 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import '../imports/api/items.js';
-import '../imports/api/sportrent.js';
+import '../imports/api/services';
+import '../imports/api/hardwares';
+import '../imports/api/ipmac';
 

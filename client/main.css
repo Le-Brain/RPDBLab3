@@ -5,20 +5,76 @@ body {
 
 .input_group{
   margin: 1rem auto;
+  padding-left: 20px;
+}
+
+.o-label-search {
+	margin-right: 20px;
+}
+
+.o-input {
+	width: 400px;
+	padding-left: 20px;
+	border: 1px solid #DCDCDC;
+	border-radius: 5px;
+}
+
+.input_search {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.o-button-add {
+	margin: 0 auto;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	min-width: 75px;
+	text-align: center;
+	line-height: 1.21;
+	width: 175px;
+	height: 40px;
+	background-color: #32CD32;
+	border: none;
+	border-radius: 3px;
+	border: solid 1px #757575;
+}
+
+.o-button-delete {
+	margin: 0 auto;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	min-width: 75px;
+	text-align: center;
+	line-height: 1.21;
+	width: 175px;
+	height: 40px;
+	background-color: #A52A2A;
+	border: none;
+	border-radius: 3px;
+	border: solid 1px #757575;
 }
 
 .block{
   margin: 1rem auto;
+  box-shadow: 0.3px 5px 10px 0 rgba(9, 9, 9, 0.2), 1.4px 20px 221px 0 rgba(255, 255, 255, 0.5);
+  background-color: #D3D3D3;
   padding: 0.5rem;
   width: 50%;
-  border: 1px solid black;
+  line-height: 30px;
   border-radius: 5px;
 }
 
 form{
   margin: 1rem auto;
   width: 50%;
-  border: 1px solid black;
+  box-shadow: 0.3px 5px 10px 0 rgba(9, 9, 9, 0.2), 1.4px 20px 221px 0 rgba(255, 255, 255, 0.5);
+  background-color: white;
   border-radius: 5px;
   padding: 0.5rem;
 }
